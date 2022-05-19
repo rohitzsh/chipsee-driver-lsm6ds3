@@ -1,7 +1,4 @@
 DEPMOD  = /sbin/depmod
-ARCH := $(ARCH)
-KVER := $(shell uname -r)
-KSRC := /lib/modules/$(KVER)/build
 
 MODULE_NAME := lsm6ds3
 lsm6ds3-core += lsm6ds3_core.o lsm6ds3_i2c.o
